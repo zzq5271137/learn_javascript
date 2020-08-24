@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa8ac19-e66a-436d-bd5b-70a26e37063d" name="Default Changelist" comment="" />
+    <list default="true" id="0aa8ac19-e66a-436d-bd5b-70a26e37063d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01-介绍/02-console的几种输出.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-介绍/03-常量.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-介绍/04-变量.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -21,6 +28,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1gYGjKkJw4WgqFsqsI5nlEYRCFD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,6 +47,20 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="C:/dev/node/node_global/node_modules/npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Node.js.03-常量.js">
+    <configuration name="02-console的几种输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-介绍/02-console的几种输出.js" working-dir="$PROJECT_DIR$/01-介绍">
+      <method v="2" />
+    </configuration>
+    <configuration name="03-常量.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-介绍/03-常量.js" working-dir="$PROJECT_DIR$/01-介绍">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.03-常量.js" />
+        <item itemvalue="Node.js.02-console的几种输出.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -60,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598284246008</updated>
-      <workItem from="1598284247105" duration="110000" />
+      <workItem from="1598284247105" duration="493000" />
+      <workItem from="1598284764486" duration="1053000" />
     </task>
     <servers />
   </component>
@@ -68,6 +93,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1598285790158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598285790158" />
+    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1598285790157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598285790157" />
+    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1598285790157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598285790157" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1598285790158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598285790158" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1598284316551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
