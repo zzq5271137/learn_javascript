@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa8ac19-e66a-436d-bd5b-70a26e37063d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-介绍/02-console的几种输出.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-介绍/03-常量.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-介绍/04-变量.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/01-JavaScript是单线程的.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/02-Promise基本概念.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-介绍/01-介绍.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-JavaScript基础/01-介绍/01-介绍.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-介绍/02-console的几种输出.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-JavaScript基础/01-介绍/02-console的几种输出.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-介绍/03-常量.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-JavaScript基础/01-介绍/03-常量.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-介绍/04-变量.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-JavaScript基础/01-介绍/04-变量.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,15 +51,32 @@
     <property name="nodejs_package_manager_path" value="C:/dev/node/node_global/node_modules/npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Node.js.03-常量.js">
-    <configuration name="02-console的几种输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-介绍/02-console的几种输出.js" working-dir="$PROJECT_DIR$/01-介绍">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\WebStorm_workspace\Learn_JavaScript\01-JavaScript基础" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.02-Promise基本概念.js">
+    <configuration name="01-JavaScript是单线程的.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/01-JavaScript是单线程的.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程">
       <method v="2" />
     </configuration>
-    <configuration name="03-常量.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-介绍/03-常量.js" working-dir="$PROJECT_DIR$/01-介绍">
+    <configuration name="02-Promise基本概念.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/02-Promise基本概念.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程">
+      <method v="2" />
+    </configuration>
+    <configuration name="02-console的几种输出.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-JavaScript基础/01-介绍/02-console的几种输出.js" working-dir="$PROJECT_DIR$/01-JavaScript基础/01-介绍">
+      <method v="2" />
+    </configuration>
+    <configuration name="03-常量.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01-JavaScript基础/01-介绍/03-常量.js" working-dir="$PROJECT_DIR$/01-JavaScript基础/01-介绍">
+      <method v="2" />
+    </configuration>
+    <configuration name="practise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/practise/practise.js" working-dir="$PROJECT_DIR$/practise">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.02-Promise基本概念.js" />
+        <item itemvalue="Node.js.practise.js" />
+        <item itemvalue="Node.js.01-JavaScript是单线程的.js" />
         <item itemvalue="Node.js.03-常量.js" />
         <item itemvalue="Node.js.02-console的几种输出.js" />
       </list>
@@ -85,7 +105,9 @@
       <option name="presentableId" value="Default" />
       <updated>1598284246008</updated>
       <workItem from="1598284247105" duration="493000" />
-      <workItem from="1598284764486" duration="1053000" />
+      <workItem from="1598284764486" duration="1081000" />
+      <workItem from="1598601669595" duration="3134000" />
+      <workItem from="1599715497715" duration="3905000" />
     </task>
     <servers />
   </component>
@@ -93,22 +115,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1598285790158">
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1599719244128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598285790158" />
-    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1598285790157">
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599719244128" />
+    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1599719244128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598285790157" />
-    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1598285790157">
+    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599719244128" />
+    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1599719244128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598285790157" />
-    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1598285790158">
+    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599719244128" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1599719244128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598285790158" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599719244128" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1598284316551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
