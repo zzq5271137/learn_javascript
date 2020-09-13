@@ -77,13 +77,16 @@ my_promise_4_return.then(function () {
  * 和then()方法传递两个参数的写法的区别在于, 使用链式的then()和catch()方法可以捕获then()方法中的异常;
  */
 let my_promise_5 = new Promise(function (resolve, reject) {
-    resolve();
-    // reject();
+    resolve("success");
 });
 
-my_promise_5.then(function () {
-    console.log("my_promise_5, 成功");
+my_promise_5.then(function (data) {
+    console.log("my_promise_5, 成功, data: " + data);
     xxx  // 这里会产生异常
-}).catch(function (e) {
-    console.log("my_promise_5, 失败, 异常: " + e);
+}).catch(function (e, data) {
+    /*
+     * 这里的data并不会传进来, 因为在Promise对象中执行的是成功的回调,
+     * 而走到这里的catch()回调是因为在执行then()的回调时触发了异常;
+     */
+    console.log("my_promise_5, 失败, data: " + data + ", 异常: " + e);
 });
