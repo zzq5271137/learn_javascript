@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aa8ac19-e66a-436d-bd5b-70a26e37063d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/06-Promise_catch方法_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/06-Promise_catch方法_2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/07-JavaScript的异常处理机制.js" beforeDir="false" afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/07-JavaScript的异常处理机制.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/01-Symbol类型.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/02-Symbol的注意点.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/03-Iterator接口_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/04-Iterator接口_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/05-Iterator的应用场景.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/06-Generator函数.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/07-Generator函数的应用场景_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/08-Generator函数的应用场景_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/09-Generator函数的应用场景_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/10-async函数和await.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -49,35 +57,36 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\WebStorm_workspace\Learn_JavaScript\02-JavaScript新特性和流行框架\03-ES678新特性" />
       <recent name="H:\WebStorm_workspace\Learn_JavaScript\02-JavaScript新特性和流行框架\02-异步编程" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\WebStorm_workspace\Learn_JavaScript\01-JavaScript基础" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.06-Promise_catch方法_2.js">
-    <configuration name="04-Promise_then方法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/04-Promise_then方法.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程">
+  <component name="RunManager" selected="Node.js.09-Generator函数的应用场景_3.js">
+    <configuration name="06-Generator函数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/06-Generator函数.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性">
       <method v="2" />
     </configuration>
-    <configuration name="05-Promise_catch方法_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/05-Promise_catch方法_1.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程">
+    <configuration name="07-Generator函数的应用场景_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/07-Generator函数的应用场景_1.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性">
       <method v="2" />
     </configuration>
-    <configuration name="06-Promise_catch方法_2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/06-Promise_catch方法_2.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程">
+    <configuration name="08-Generator函数的应用场景_2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/08-Generator函数的应用场景_2.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性">
       <method v="2" />
     </configuration>
-    <configuration name="07-JavaScript的异常处理机制.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程/07-JavaScript的异常处理机制.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/02-异步编程">
+    <configuration name="09-Generator函数的应用场景_3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/09-Generator函数的应用场景_3.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性">
       <method v="2" />
     </configuration>
-    <configuration name="practise.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/practise/practise.js" working-dir="$PROJECT_DIR$/practise">
+    <configuration name="10-async函数和await.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性/10-async函数和await.js" working-dir="$PROJECT_DIR$/02-JavaScript新特性和流行框架/03-ES678新特性">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.06-Promise_catch方法_2.js" />
-        <item itemvalue="Node.js.07-JavaScript的异常处理机制.js" />
-        <item itemvalue="Node.js.05-Promise_catch方法_1.js" />
-        <item itemvalue="Node.js.practise.js" />
-        <item itemvalue="Node.js.04-Promise_then方法.js" />
+        <item itemvalue="Node.js.09-Generator函数的应用场景_3.js" />
+        <item itemvalue="Node.js.10-async函数和await.js" />
+        <item itemvalue="Node.js.08-Generator函数的应用场景_2.js" />
+        <item itemvalue="Node.js.07-Generator函数的应用场景_1.js" />
+        <item itemvalue="Node.js.06-Generator函数.js" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +123,8 @@
       <workItem from="1599901302418" duration="1770000" />
       <workItem from="1599962960551" duration="818000" />
       <workItem from="1599976620549" duration="1370000" />
-      <workItem from="1599994315550" duration="5590000" />
+      <workItem from="1599994315550" duration="14713000" />
+      <workItem from="1600009478580" duration="21000" />
     </task>
     <servers />
   </component>
@@ -122,74 +132,74 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1599999908213">
+    <state width="1899" height="338" key="GridCell.Tab.0.bottom" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599999908213" />
-    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1599999908213">
+    <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.0.center" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599999908213" />
-    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1599999908213">
+    <state width="1899" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.0.left" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599999908213" />
-    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1599999908213">
+    <state width="1899" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.0.right" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599999908213" />
-    <state width="1899" height="338" key="GridCell.Tab.1.bottom" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.1.bottom" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.1.center" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.1.center" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.1.left" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.1.left" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.1.right" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.1.right" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.2.bottom" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.2.bottom" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.2.center" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.2.center" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.2.left" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.2.left" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.2.right" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.2.right" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.3.bottom" timestamp="1599999791467">
+    <state width="1899" height="338" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.3.bottom" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791467" />
-    <state width="1899" height="338" key="GridCell.Tab.3.center" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.3.center" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.3.left" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.3.left" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state width="1899" height="338" key="GridCell.Tab.3.right" timestamp="1599999791466">
+    <state width="1899" height="338" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state width="1899" height="338" key="GridCell.Tab.3.right" timestamp="1600009393748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599999791466" />
-    <state x="498" y="156" key="SettingsEditor" timestamp="1599722185187">
+    <state width="1899" height="338" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600009393748" />
+    <state x="498" y="156" key="SettingsEditor" timestamp="1600008269367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="498" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599722185187" />
+    <state x="498" y="156" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600008269367" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1599997205952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
