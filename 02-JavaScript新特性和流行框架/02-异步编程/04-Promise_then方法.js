@@ -33,7 +33,8 @@ my_promise_2.then(function (data) {
 });
 
 /*
- * 同一个Promise对象可以多次调用then()方法
+ * 同一个Promise对象可以多次调用then()方法, 当该Promise对象的状态切换为fulfilled(resolved)时,
+ * 所有then()方法中的回调都会被执行;
  */
 let my_promise_3 = new Promise(function (resolve, reject) {
     resolve();
