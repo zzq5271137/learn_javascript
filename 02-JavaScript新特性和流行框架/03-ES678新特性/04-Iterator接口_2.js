@@ -11,14 +11,14 @@ class MyArray {
             // this[0] = 1
             // this[1] = 3
             // this[2] = 5
-            this[i] = arguments[i];
+            this[i] = arguments[i]
         }
-        this.length = arguments.length;
+        this.length = arguments.length
     }
 
     [Symbol.iterator]() {
-        let index = 0;
-        let that = this;
+        let index = 0
+        let that = this
         return {
             next() {
                 if (index < that.length) {
@@ -37,7 +37,7 @@ class MyArray {
     }
 }
 
-let arr = new MyArray(1, 3, 5);
+let arr = new MyArray(1, 3, 5)
 for (let value of arr) {
     console.log(value)
 }

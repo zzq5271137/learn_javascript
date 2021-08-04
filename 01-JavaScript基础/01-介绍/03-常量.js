@@ -17,5 +17,5 @@
  *        const 常量的名称 = 常量的取值
  */
 
-const NAME = 'ZzqGo';
-console.log(NAME);
+const NAME = "ZzqGo"
+console.log(NAME)

@@ -14,18 +14,18 @@
 function request() {
     return new Promise(function (resolve, reject) {
         setTimeout(function () {
-            resolve("图片数据");
+            resolve("图片数据")
         }, 1000)
-    });
+    })
 }
 
 async function gen() {
-    let data1 = await request();
-    console.log(data1, 1);
-    let data2 = await request();
-    console.log(data2, 2);
-    let data3 = await request();
-    console.log(data3, 3);
+    let data1 = await request()
+    console.log(data1, 1)
+    let data2 = await request()
+    console.log(data2, 2)
+    let data3 = await request()
+    console.log(data3, 3)
 }
 
-gen();
+gen()

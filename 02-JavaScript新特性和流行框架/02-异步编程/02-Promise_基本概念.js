@@ -17,47 +17,47 @@
 
 // 未使用Promise
 function without_promise() {
-    console.log("未使用Promise");
+    console.log("未使用Promise")
 
     function request(success) {
         setTimeout(function () {  // 使用定时器模拟网络请求获取数据
             success("图片数据")
-        }, 1000);
+        }, 1000)
     }
 
     request(function (data) {
-        console.log(data, 1);
+        console.log(data, 1)
         request(function (data) {
-            console.log(data, 2);
+            console.log(data, 2)
             request(function (data) {
-                console.log(data, 3);
-            });
-        });
-    });
+                console.log(data, 3)
+            })
+        })
+    })
 }
 
 // 使用Promise
 function with_promise() {
-    console.log("使用Promise");
+    console.log("使用Promise")
 
     function request() {
         return new Promise(function (resolve, reject) {
             setTimeout(function () {  // 使用定时器模拟网络请求获取数据
                 resolve("图片数据")
-            }, 1000);
+            }, 1000)
         })
     }
 
     request().then(function (data) {
-        console.log(data, 1);
+        console.log(data, 1)
         return request()
     }).then(function (data) {
-        console.log(data, 2);
+        console.log(data, 2)
         return request()
     }).then(function (data) {
-        console.log(data, 3);
-    });
+        console.log(data, 3)
+    })
 }
 
 // without_promise();
-with_promise();
+with_promise()

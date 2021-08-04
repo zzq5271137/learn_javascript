@@ -24,17 +24,17 @@
  */
 
 function* gen() {
-    console.log("gen()执行了A");
-    let res = yield "A";
-    console.log(res);
-    console.log("gen()执行了B");
-    yield "B";
-    console.log("gen()执行了C");
-    yield "C";
+    console.log("gen()执行了A")
+    let res = yield "A"
+    console.log(res)
+    console.log("gen()执行了B")
+    yield "B"
+    console.log("gen()执行了C")
+    yield "C"
 }
 
-let it = gen();
-console.log(it.next());
-console.log(it.next("zzq"));
-console.log(it.next());
-console.log(it.next());
+let it = gen()
+console.log(it.next())
+console.log(it.next("zzq"))
+console.log(it.next())
+console.log(it.next())

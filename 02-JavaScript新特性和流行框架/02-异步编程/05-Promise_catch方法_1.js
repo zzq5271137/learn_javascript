@@ -7,12 +7,12 @@
  */
 let my_promise_1 = new Promise(function (resolve, reject) {
     // resolve();
-    reject();
-});
+    reject()
+})
 
 my_promise_1.catch(function () {
-    console.log("my_promise_1, 失败");
-});
+    console.log("my_promise_1, 失败")
+})
 
 /*
  * catch()方法可以和then()方法进行链式使用, 即then()方法监听成功, catch()方法监听失败;
@@ -22,11 +22,11 @@ my_promise_1.catch(function () {
  */
 let my_promise_2 = new Promise(function (resolve, reject) {
     // resolve();
-    reject();
-});
+    reject()
+})
 
 my_promise_2.then(function () {  // 这种写法其实就相当于过去向then()方法中传递两个回调的写法
-    console.log("my_promise_2, 成功");
+    console.log("my_promise_2, 成功")
 }).catch(function () {
-    console.log("my_promise_2, 失败");
-});
+    console.log("my_promise_2, 失败")
+})

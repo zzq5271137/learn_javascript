@@ -23,14 +23,14 @@
  * 在通过Symbol()生成独一无二的值的时候, 可以设置一个标记, 这个标记仅仅用于区分, 没有其他任何含义;
  */
 
-let name = Symbol("name");
-let say = Symbol("say");
+let name = Symbol("name")
+let say = Symbol("say")
 let obj = {
     [name]: "zzq",  // 注意点, 如果要使用变量作为对象属性的名称, 必须要使用中括号[]
     [say]: function (time) {
-        console.log("hello " + time);
+        console.log("hello " + time)
     }
-};
-console.log(obj);
-obj.name = "zzq2";
-console.log(obj);
+}
+console.log(obj)
+obj.name = "zzq2"
+console.log(obj)

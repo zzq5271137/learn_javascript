@@ -27,18 +27,20 @@
  * 2. rejected -> catch()
  */
 
-console.log("1");
+console.log("1")
 
 let my_promise = new Promise(function (resolve, reject) {
-    console.log("2");
-    resolve();
-    reject();  // 状态不可逆
-});
+    console.log("2")
+    resolve()
+    reject()  // 状态不可逆
+})
 
-console.log("3");
+console.log("3")
 
 my_promise.then(function () {
     console.log("then")
-}).catch(function () {
+})
+
+my_promise.catch(function () {
     console.log("catch")
-});
+})

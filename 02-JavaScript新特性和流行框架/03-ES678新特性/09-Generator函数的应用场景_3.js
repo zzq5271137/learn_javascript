@@ -8,25 +8,25 @@
 function request() {
     return new Promise(function (resolve, reject) {
         setTimeout(function () {
-            resolve("图片数据");
+            resolve("图片数据")
         }, 1000)
-    });
+    })
 }
 
 function* gen() {
-    yield request();
-    yield request();
-    yield request();
+    yield request()
+    yield request()
+    yield request()
 }
 
-let it = gen();
+let it = gen()
 it.next().value.then(function (data) {
-    console.log(data, 1);
-    return it.next().value;
+    console.log(data, 1)
+    return it.next().value
 }).then(function (data) {
-    console.log(data, 2);
-    return it.next().value;
+    console.log(data, 2)
+    return it.next().value
 }).then(function (data) {
-    console.log(data, 3);
-    return it.next().value;
-});
+    console.log(data, 3)
+    return it.next().value
+})
