@@ -33,7 +33,7 @@ my_promise_2.then(function (data) {
 })
 
 /*
- * 同一个Promise对象可以多次调用then()方法, 当该Promise对象的状态切换为fulfilled(resolved)时,
+ * 同一个Promise对象可以多次调用then()方法, 当该Promise对象的状态切换为fulfilled(resolved)或rejected时,
  * 所有then()方法中的回调都会被执行;
  */
 let my_promise_3 = new Promise(function (resolve, reject) {
@@ -57,6 +57,7 @@ my_promise_3.then(function () {
  * then()方法每次执行完毕之后都会返回一个新的Promise对象;
  * 并且, 可以通过上一个Promise对象的then()方法, 给下一个Promise对象的then()方法传递参数;
  * 注意, 无论是在上一个Promise对象成功的回调还是失败的回调传递的参数, 都会传递给下一个Promise对象成功的回调;
+ * 即, 如果在then()方法中返回一个基本数据类型的值, 那么返回的Promise对象就一定会执行成功的回调;
  */
 let my_promise_4 = new Promise(function (resolve, reject) {
     // resolve("success");
@@ -78,7 +79,7 @@ my_promise_4_return.then(function (data) {
 })
 
 /*
- * 如果then()方法返回的是一个Promise对象, 那么会将返回的Promise对象的执行结果中的值传递给下一个Promise对象;
+ * 但如果then()方法返回的是一个Promise对象, 那么这个返回的Promise对象执行的是成功的回调还是失败的回调, 取决于这个返回的Promise对象本身
  */
 let my_promise_5 = new Promise(function (resolve, reject) {
     // resolve("success_1");

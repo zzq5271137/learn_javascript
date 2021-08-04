@@ -31,8 +31,8 @@ my_promise_2.catch(function () {
 
 /*
  * 和then()方法一样, catch()方法每次执行完毕后会返回一个新的Promise对象;
- * 并且, 上一个Promise对象的catch()方法可以给下一个Promise对象传递参数; 但是注意,
- * 无论是在上一个Promise对象成功的回调还是失败的回调传递的参数, 都会传递给下一个Promise对象成功的回调;
+ * 并且, 上一个Promise对象的catch()方法可以给下一个Promise对象传递参数;
+ * 但是注意, 无论是在上一个Promise对象成功的回调还是失败的回调传递的参数, 都会传递给下一个Promise对象成功的回调;
  */
 let my_promise_3 = new Promise(function (resolve, reject) {
     reject("error")
@@ -51,7 +51,7 @@ my_promise_3_return.then(function (data) {
 
 /*
  * 和then()方法一样, 如果catch()方法返回的是一个Promise对象,
- * 那么会将返回的Promise对象的执行结果中的值传递给下一个Promise对象;
+ * 那么这个返回的Promise对象执行的是成功的回调还是失败的回调, 取决于这个返回的Promise对象本身;
  */
 let my_promise_4 = new Promise(function (resolve, reject) {
     reject()
