@@ -14,6 +14,7 @@ let my_promise_1 = new Promise(function (resolve, reject) {
 
 my_promise_1.then(function () {
     console.log("my_promise_1, 成功")
+    console.log("zzq")
 }, function () {
     console.log("my_promise_1, 失败")
 })
